@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="sdk.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="util.hpp">
+      <Filter>sdk\util</Filter>
+    </ClInclude>
+    <ClInclude Include="context.hpp">
+      <Filter>paladins\context</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_classes.hpp">
+      <Filter>paladins\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="paladins.hpp">
+      <Filter>paladins</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.hpp">
+      <Filter>paladins\hacks\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="unrealengine.hpp">
+      <Filter>paladins\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.hpp">
+      <Filter>paladins\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="local.hpp">
+      <Filter>paladins\local</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="context.cpp">
+      <Filter>paladins\context</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_structs.hpp">
+      <Filter>paladins\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>paladins\hacks\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="local.cpp">
+      <Filter>paladins\local</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{67c43e71-407b-4ba0-8047-2dc30dc6d60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\util">
+      <UniqueIdentifier>{5c13ae56-e946-4846-8da4-cd277c6d7b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paladins">
+      <UniqueIdentifier>{cdb4af7f-9ad0-422f-b362-9cc293dcff03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paladins\context">
+      <UniqueIdentifier>{ea141b69-6b8e-47b2-81b9-28eed48c6698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paladins\engine">
+      <UniqueIdentifier>{d493606b-e0f7-47f0-b0a9-6808efbfe112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paladins\hacks">
+      <UniqueIdentifier>{ae60b496-f3a3-4bd0-a6ff-55c125d02b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paladins\hacks\visuals">
+      <UniqueIdentifier>{afb5e586-3701-41d9-b8b7-0df228cdd3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paladins\local">
+      <UniqueIdentifier>{d1f47081-59a9-475f-a0cf-14cd97710d45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
