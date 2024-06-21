@@ -1,4 +1,7 @@
 #pragma once
 namespace sdk {
-	BOOL is_valid(DWORD64 address);
+	using hash_t = std::size_t;
+
+	using ulong_t = unsigned long;
+
 }
