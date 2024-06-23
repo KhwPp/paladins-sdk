@@ -145,6 +145,7 @@
     <ClInclude Include="context.hpp" />
     <ClInclude Include="engine_classes.hpp" />
     <ClInclude Include="local.hpp" />
+    <ClInclude Include="offsets.hpp" />
     <ClInclude Include="paladins.hpp" />
     <ClInclude Include="sdk.hpp" />
     <ClInclude Include="unrealengine.hpp" />

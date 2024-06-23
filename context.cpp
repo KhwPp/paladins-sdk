@@ -1,5 +1,5 @@
 #include "paladins.hpp"
-// todo render, hooks
+
 int __stdcall DllMain(_In_ HINSTANCE instance, _In_ DWORD reason, _In_ LPVOID reserved) {
     if (reason != DLL_PROCESS_ATTACH)
         return 0;
@@ -10,8 +10,13 @@ int __stdcall DllMain(_In_ HINSTANCE instance, _In_ DWORD reason, _In_ LPVOID re
 
     return 1;
 }
-namespace paladins {
-    void context::init() {
 
+namespace paladins {
+
+    bool pre_init() {
+        return false;
+    }
+    void context::init() {
+        pre_init();
     }
 }

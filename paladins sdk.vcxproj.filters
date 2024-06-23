@@ -28,6 +28,9 @@
     <ClInclude Include="local.hpp">
       <Filter>paladins\local</Filter>
     </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>paladins\engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="context.cpp">

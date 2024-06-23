@@ -706,7 +706,7 @@ namespace paladins {
 		unsigned long                                      r_bIsWallHacking;                                         // 0x0674(0x0004) (Net)
 		char                                               pad_0009[0xa94];                                          // 0x0678(0x0a94)
 		float                                              r_fCachedMaxHealth;                                       // 0x110C(0x0004) (Net)
-	};
+	}inline* g_a_pawn{};
 
 	// Class Engine.PlayerReplicationInfo
 	// 0x0200 (0x0480 - 0x0280)
